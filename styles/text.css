@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 8vmin;
+}
+
+h2 {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 8vmin;
+}
+
+.bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.medium {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.title_blue {
+    font-size: 30px;
+    padding-bottom: 16px;
+    color: #202020;
+}
+
+.text_blue {
+    font-size: 16px;
+    color: #5F5F64;
+}
+
+.title_customer {
+    font-size: 80px;
+    letter-spacing: 0.8px;
+    color: #0D1111;
+    padding-bottom: 40px;
+}
+
+.text_customer {
+    color: #767E7E;
+    font-size: 16px;
+    width: 640px;
+    text-align: center;
+    padding-bottom: 42px;
+}
+
+.text_grey_customer_part {
+    color: #718176;
+    font-size: 16px;
+    padding-bottom: 11px;
+}
+
+.title_customer_part {
+    color: #000;
+    font-size: 25px;
+}
+
+.handoff_title {
+    font-size: 52px;
+    color: #192430;
+    padding-bottom: 30px;
+}
+
+.text_handoff {
+    font-size: 16px;
+    color: #727272;
+    padding-bottom: 65px;
+}
+
+.right_block_right_title {
+    color: #222;
+    padding-top: 5px;
+    font-size: 20px;
+    padding-bottom: 9px;
+}
+
+.text_left_blue_bottom {
+    color: #414449;
+    font-size: 18px;
+    width: 120px;
+    padding-bottom: 28px;
+    margin-top: 69px;
+    padding-right: 75px;
+} 
+
+.right_content_blue_bottom_title {
+    font-size: 60px;
+    color: #000;
+    padding-bottom: 42px;
+}
+
+.button_right_content_blue_bottom {
+    padding: 21px 44px;
+    color: #FFF;
+    font-size: 16px;
+    background: #E15C19;
+    text-decoration: none;
+}
+
+.Visa_card {
+    height: 450px;
+}
+
+.text_footer_top {
+    font-size: 14px;
+    color: #404041;
+    padding-right: 47px;
+}
+
+.text_bottom_part_footer {
+    font-size: 12px;
+    color: #7B827D;
+}
+
+.hr_footer {
+    background: #565B58;
+    border: 1px solid #565B58;
+    width: 661px;
+}
