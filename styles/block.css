@@ -12,6 +12,7 @@ nav {
 nav>div {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navbar {
@@ -28,14 +29,14 @@ nav>div {
 .logo {
     height: 20px;
     width: 80px;
-    background: url(/images/logo.svg) transparent no-repeat center;
-    background-size: contain;
+    /* background: url(images/logo.png) transparent no-repeat center;
+    background-size: contain; */
 }
 
 .cart {
     height: 40px;
     width: 40px;
-    background: url(/images/cart.png) transparent no-repeat center;
+    background: url(images/cart.png) transparent no-repeat center;
     background-size: contain;
     cursor: pointer;
 }

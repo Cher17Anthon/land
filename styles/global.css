@@ -209,54 +209,47 @@ header .container > div {
     display: flex;
     align-items: center;
     height: 50px;
-    padding-left: 60px;
     cursor: pointer;
 }
 
-.top-button::before {
-    position: absolute;
-    left: 0;
-    top: 0;
-    content: '';
-    width: 50px;
-    height: 100%;
-    display: block;
-    background: url(/images/arrow-button.png) transparent no-repeat center;
-    background-size: cover;
+.arrow-button {
+    margin-right: 10px;
 }
 
 .header-left {
     padding-top: 65px;
     flex: 3;
-    background: url(/images/shado.png) transparent no-repeat center;
+    background: url(images/shado.png) transparent no-repeat center;
     background-size: 170%;
 }
 
 .header-right {
     flex: 4;
     /* height: 100%; */
-    background: url(/images/header_card.png) transparent no-repeat center;
-    background-size: contain;
+}
+
+.trigger_text {
+    font-size: 20px;
 }
 
 .trigger-fire-bold {
     font-size: 30px;
 }
 
+.p_triggers {
+    margin-top: 18px;
+}
+
 .trigger-fire {
-    background: url(/images/fire.svg) transparent no-repeat center;
     width: 35px;
     height: 35px;
     display: inline-block;
-    background-size: contain;
 }
 
 .trigger-icon {
-    background: url(/images/icon.png) transparent no-repeat center;
     width: 35px;
     height: 35px;
     display: inline-block;
-    background-size: contain;
     margin-bottom: 15px;
 }
 
